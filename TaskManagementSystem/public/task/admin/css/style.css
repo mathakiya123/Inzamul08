@@ -1,0 +1,87 @@
+
+body {
+  background: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Left GIF Section */
+.login-image {
+  background: #fbbf24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image img {
+  max-width: 90%;
+  height: auto;
+}
+
+/* Login Card */
+.login-card {
+  border: none;
+  border-radius: 18px;
+}
+
+.login-btn {
+  background: #fbbf24;
+  border: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.login-btn:hover {
+  background: #f59e0b;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #fbbf24;
+}
+
+/* Sidebar */
+
+.sidebar {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.sidebar-menu .nav-link {
+  color: #333;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+.sidebar-menu .nav-link:hover,
+.sidebar-menu .nav-link.active {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+/* Hover dropdown */
+.sidebar-menu .dropdown:hover .dropdown-menu {
+  display: block;
+  position: static;
+  float: none;
+  margin-left: 20px;
+  box-shadow: none;
+  border: none;
+}
+
+
+/* Cards */
+.dashboard-card {
+  border: none;
+  border-radius: 18px;
+}
+
+/* Topbar */
+.topbar {
+  background: #fff;
+  border-radius: 18px;
+}
+
+/* Progress */
+.progress-bar {
+  background-color: #fbbf24;
+}
